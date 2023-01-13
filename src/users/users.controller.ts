@@ -5,7 +5,7 @@ import { UsersService } from "./users.service";
 import { Serialize } from "../interceptors/serialize.interceptior";
 import { UserDto } from "../users/dtos/user.dto";
 import { AuthService } from "./auth.service";
-import { CurrentUser } from "./decorators/current-user.decorators";
+import { CurrentUser } from "./decorators/current-user.decorator";
 import { User } from "./user.entity";
 import { AuthGuard } from "../guards/auth.guard";
 
